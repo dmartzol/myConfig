@@ -12,10 +12,6 @@ def activates_context(x):
     actions.key("cmd-space")
 
 
-def activates_context(x):
-    actions.key("cmd-space")
-
-
 def left_click(isStart):
     ctrl.mouse_click(0)
 
