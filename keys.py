@@ -5,7 +5,7 @@ ctx.matches = 'os: mac'
 
 alphabet = {
     "air": "a", "alley": "a",
-    "boy": "b",
+    "boy": "b", "bat": "b",
     "cap": "c",
     "drum": "d",
     "east": "e",
