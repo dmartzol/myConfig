@@ -16,5 +16,10 @@ def left_click(isStart):
     ctrl.mouse_click(0)
 
 
-noise.register("pop", activates_context)
+def right_click(isStart):
+    ctrl.mouse_click(1)
+
+
+noise.register("pop", left_click)
+# noise.register("pop", activates_context)
 # noise.register("hiss", left_click)
