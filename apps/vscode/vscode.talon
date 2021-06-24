@@ -8,3 +8,14 @@ close other tabs: key(cmd-alt-t)
 close all tabs:
     key(cmd-k)
     key(w)
+uppercase that:
+    user.vscode("workbench.action.showCommands")
+    insert("uppercase")
+    key(enter)
+lowercase that:
+    user.vscode("workbench.action.showCommands")
+    insert("lowercase")
+    key(enter)
+problem next: key(f8)
+problem last: user.vscode("editor.action.marker.prevInFiles")
+match: key(cmd-d)
