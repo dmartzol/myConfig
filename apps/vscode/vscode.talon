@@ -19,3 +19,4 @@ lowercase that:
 problem next: key(f8)
 problem last: user.vscode("editor.action.marker.prevInFiles")
 match: key(cmd-d)
+comment line: key(cmd-/)

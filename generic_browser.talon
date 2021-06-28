@@ -1,5 +1,5 @@
 tag: browser
 -
-archive email: key(e)
-delete email: key(#)
+email archive: key([)
+email delete: key(#)
 link: key("f")
