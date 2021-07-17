@@ -11,3 +11,13 @@ scrap: edit.delete_line()
 dump: edit.paste()
 copy: edit.copy()
 cut: edit.cut()
+sound preferences:
+    key("alt-space")
+    sleep(200ms)
+    insert("sound.prefPane")
+    key("enter")
+bluetooth preferences:
+    key("alt-space")
+    sleep(200ms)
+    insert("Bluetooth.prefPane")
+    key("enter")
