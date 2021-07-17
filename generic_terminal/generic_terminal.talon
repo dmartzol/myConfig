@@ -14,3 +14,6 @@ talon home: insert("cd ~/.talon/\n")
 talon user home: insert("cd ~/.talon/user\n")
 brew update: insert("brew update")
 brew install: insert("brew install ")
+run last (one):
+    key("up")
+    key("enter")
