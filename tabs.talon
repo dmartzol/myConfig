@@ -1,5 +1,6 @@
 tag: user.tabs
 -
-(tab last | golack): app.tab_previous()
-(tab next | goneck): app.tab_next()
-# go <number>: user.tap_jump(number)
+[table|flag] last: app.tab_previous()
+[table|flag] next: app.tab_next()
+go table <number>: user.tab_jump(number)
+go [flag|table] <number>: user.tab_jump(number)
